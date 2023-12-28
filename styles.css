@@ -1,0 +1,12 @@
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Replace with your desired button color */
+    color: #fff; /* Text color */
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .button-link:hover {
+    background-color: #0056b3; /* Change color on hover */
+  }
