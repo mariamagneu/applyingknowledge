@@ -11,10 +11,46 @@
     background-color: #0056b3; /* Change color on hover */
   }
 
-  p{
+  p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
-  h1 {
+  h1, h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  h3 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: pink;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+  }
+  
+  h4 {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: violet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+
+  .beside {
+    display: inline-block;
+    margin: 200;
+  }
+
+  .below {
+    display : block;
+
+  }
+
+  .overlapping {
+    margin-top : 20px;
+    margin-right: -80px;
+    display: inline-block;
   }
