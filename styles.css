@@ -46,7 +46,7 @@
   }
 
   .beside {
-    display: inline-block;
+    display: flex;
     margin: 200px;
   }
 
