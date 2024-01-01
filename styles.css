@@ -30,6 +30,7 @@
     max-width: 400px;
     border: groove black 5px;
     box-sizing: border-box;
+    display: block;
   }
   
   h4 {
@@ -45,24 +46,34 @@
 
   }
 
-  .beside {
+  .h-box {
     display: flex;
-    margin: 200px;
-  }
+}
 
-  .below {
-    display : block;
+.h-box h3, .h-box h4 {
+    flex: 1;
+    max-width: 500px;
+    box-sizing: border-box;
 
-  }
+}
 
-  .overlapping {
-    margin-top : 20px;
+.v-box h3, .v-box h4 {
+    display: block;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.overlapping {
+    margin-top: 20px;
     margin-right: -80px;
     display: inline-block;
-  }
+}
 
+.overlapping2 {
+    margin-top: 200px;
+    display: inline;
+}
 
-  .overlapping2 {
-     margin-top: 200px;
-     display: inline-block;
-  }
+#flat {
+    max-height: 50px;
+}
