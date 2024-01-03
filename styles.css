@@ -19,13 +19,14 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
-  li {
+  .button-list li {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: black 2px solid;
     padding: 30px;
     background-color: beige;
     display: inline-block;
-
+    height: 100;
+    flex: 1;
 
   }
 
