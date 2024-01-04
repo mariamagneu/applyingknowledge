@@ -64,3 +64,17 @@ h2 {
 .threevalues .big {
     flex: 2;
 }
+
+.shrinking {
+    display: flex;
+}
+.shrinking p {
+    border: 2px black solid;
+    background-color: bisque;
+    padding: 20px;
+flex:1; }
+
+
+.shrinking .smallbro {
+    flex: 0 2 0%;
+}
