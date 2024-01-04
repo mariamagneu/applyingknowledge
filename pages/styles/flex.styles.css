@@ -46,3 +46,21 @@ h2 {
   text-align: center;
 
 }
+
+.threevalues{
+    display: flex;
+}
+
+.threevalues p {
+    border: 2px black solid;
+    background-color: bisque;
+    padding: 20px;
+}
+.threevalues .small {
+    flex: 0.5;
+    
+}
+
+.threevalues .big {
+    flex: 2;
+}
