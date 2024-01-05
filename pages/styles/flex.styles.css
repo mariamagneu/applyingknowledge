@@ -78,3 +78,20 @@ flex:1 1 auto; }
 .shrinking .smallbro {
     flex: 0 2 0%;
 }
+
+.columncontainer {
+    flex-direction: column;
+}
+
+.columncontainer p {
+    border: 2px black solid;
+    background-color: bisque;
+    padding: 20px;
+flex:1 1 auto; 
+max-width: 500px;
+    
+}
+
+body {
+    background-color: beige;
+}
