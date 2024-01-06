@@ -95,3 +95,31 @@ max-width: 500px;
 body {
     background-color: beige;
 }
+
+.elaborate {
+    display: flex;
+    background: beige;
+    border: brown 4px solid;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.elaborate p {
+    border: black 2px solid;
+    background-color: plum;
+    max-width: fit-content;
+    padding: 30px;
+}
+
+.elaborate .right {
+margin-left: auto;
+margin-right: 0;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+   flex-direction: column;
+
+}
