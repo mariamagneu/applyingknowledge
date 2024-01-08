@@ -124,14 +124,22 @@ h1, h2, h3 {
     padding: 20px;
     gap: 150px;
 }
-
+.imageflex > * {
+    border: 4px brown;
+    padding: 20px;
+    margin: 150 px;
+    
+}
 .imageflex .content {
     flex: 1;
-    padding: 12px;
+    border: 4px brown;
+    padding: 20px;
+    margin: 150 px;
 }
 
 .imageflex .media {
     max-width: 400px;
+    flex: 0.5;
 }
 
 img {
