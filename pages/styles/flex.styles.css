@@ -1,59 +1,37 @@
-h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+body {
+    margin: 0;
+    background-color: beige;
 
 }
 
-p {
+/* Font family for common elements */
+body, h1, h2, h3, p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
 
-.flex-container {
+/* Flex container styles */
+.flex-container, .nested-flex-container {
     display: flex;
-    background-color:aquamarine;
+    background-color: aquamarine;
     border: 5px aqua solid;
 }
 
-.flex-container p {
+/* Common style for flex items */
+.flex-container p, .nested-flex-container p {
     background: peachpuff;
-  border: 4px solid brown;
-  height: 100px;
-  margin: 10px;
-  flex: 1;
-  text-align: center;
-  padding-top: 5%;
+    border: 4px solid brown;
+    height: 100px;
+    margin: 10px;
+    flex: 1;
+    text-align: center;
+    padding-top: 5%;
 }
 
-h2 {
+h1, h2, h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
 
-
-h3 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-}
-
-
-.nested-flex-container {
-    display: flex;
-    background-color:aquamarine;
-    border: 5px aqua solid;
-}
-
-
-.nested-flex-container p {
-    background: peachpuff;
-  border: 4px solid brown;
-  height: 100px;
-  margin: 10px;
-  flex: 1;
-  text-align: center;
-
-}
-
-.threevalues{
+.threevalues {
     display: flex;
 }
 
@@ -62,9 +40,9 @@ h3 {
     background-color: bisque;
     padding: 20px;
 }
+
 .threevalues .small {
     flex: 0.5;
-    
 }
 
 .threevalues .big {
@@ -74,15 +52,16 @@ h3 {
 .shrinking {
     display: flex;
 }
+
 .shrinking p {
     border: 2px black solid;
     background-color: bisque;
     padding: 20px;
-flex:1 1 auto; }
-
+    flex: 1 1 auto;
+}
 
 .shrinking .smallbro {
-    flex: 0 2 0%;
+    flex: 0 2;
 }
 
 .columncontainer {
@@ -93,15 +72,13 @@ flex:1 1 auto; }
     border: 2px black solid;
     background-color: bisque;
     padding: 20px;
-flex:1 1 auto; 
-max-width: 500px;
-    
+    flex: 1 1 auto; 
+    max-width: 500px;
 }
 
-body {
-    background-color: beige;
-}
 
+
+/* Styles for elaborate and its child elements */
 .elaborate {
     display: flex;
     background: beige;
@@ -117,17 +94,46 @@ body {
     padding: 30px;
 }
 
-.right {
-margin-left: auto;
-margin-right: 0;
-justify-content: flex-end;
-align-items: flex-end;
+.elaborate .right {
+    margin-left: auto;
+    margin-right: 0;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .parent {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-   flex-direction: column;
+    flex-direction: column;
+}
 
+.parent .imageflex {
+    display: flex;
+    background: beige;
+    border: brown 4px solid;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+/* Styles for imageflex */
+.imageflex { 
+    display: flex;
+    align-items: flex-start;
+    border: 4px brown;
+    padding: 20px;
+    gap: 150px;
+}
+
+.imageflex .content {
+    flex: 1;
+    padding: 12px;
+}
+
+.imageflex .media {
+    max-width: 400px;
+}
+
+img {
+    max-width: 100%;
 }

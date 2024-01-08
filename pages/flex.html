@@ -9,62 +9,76 @@
 <body>
     <h1>Flexbox, flex-containers, flex items</h1>
     <h2>Don't worry, I know I am bad with aesthetics and color-choices. I am just working my way towards backend things</h2>
-<h3> Below you can watch me playing with flexbox and auto margin</h3>
- <div class="parent">
-    <div class="elaborate">
-        <p class="left">this one on the left side</p>
-        <p class="right"> and this one on the right side</p>
-    </div>
-    <div class="elaborate">
-        <p class="left">these ones</p>
-        <p class="left">on the left side</p>
-        <p class="right"> and this one on the right side</p>   
-    </div>
-<h3> as you can see I haven't completely mastered the one below yet, the two elements that are supposed to rest on the right side only do so if we minimize the window</h3>
-    <div class="elaborate">
-        <p class="left">these ones</p>
-        <p class="left">on the left side</p>
-        <p class="right"> and these ones </p>
-        <p class="right">on the right side</p>
-    </div>
-</div>
-<h2>With Flexbox you can arrange items into rows or columns and make them grow or shrink ~~flex~~.</p>
-<h3>A cool thing about flex-containers is, that you can make the elements adapt to the screen size</p>
-<div class="flex-container"> 
-    <p>For</p>
-    <p>Example</p>
-    <p>These</p>
-    <p>Paragraph-Elements</p>
-</div>
-<h2> so if you re-size your browser window you'll see the elements above adapt in size. COOOL</h2>
-<p> Why? Because they are inside a flex-container class div element, which i've set the display to flex. And I defined that every P element in that class would be flex:1. And that's it.</p>
+    <h3>Below you can watch me playing with flexbox and auto margin</h3>
 
-<h2> Same for vertically aranged elements</h2>
+    <div class="parent">
+        <div class="elaborate">
+            <p class="left">this one on the left side</p>
+            <p class="right"> and this one on the right side</p>
+        </div>
+        <div class="elaborate">
+            <p class="left">these ones</p>
+            <p class="left">on the left side</p>
+            <p class="right"> and this one on the right side</p>   
+        </div>
+        <h3>As you can see I haven't completely mastered the one below yet, the two elements that are supposed to rest on the right side only do so if we minimize the window</h3>
+        <div class="elaborate">
+            <p class="left">these ones</p>
+            <p class="left">on the left side</p>
+            <p class="right"> and these ones </p>
+            <p class="right">on the right side</p>
+        </div>
 
+        <div class="imageflex">
+            <div class="media"><img src="images/Screenshot 2024-01-06 at 17.37.36.png"></div>
+            <div class="content">I like this picture of me melting into Sintra in Portugal but tbh flexbox is hard maybe this page is already too full and I have conflicting styles. ChatGPT says it's all fine but it feels like something's off or I have problem in my logic</div>
+        </div>
 
-<div class="columncontainer"> 
-    <p>These</p>
-    <p>Are</p>
-    <p>Stacked</p>
-    <p>Now</p>
-</div>
-<h2> Want to have you mind blown? Every flex item can be a flex container in itself.</h2>
-<div class="flex-container">
-    <div class="nested-flex-container"><p>AMA</p><p>ZING</p></div><p>right?</p>
-</div>
-<div class="threevalues"> 
-    <p class="big">Look at</p>
-    <p class="small"> these Examples</p>
-    <p class="big">are they growing and</p>
-    <p class="small">shrinking equally?</p>
- </div>
-<h2> Nope, they aren't. Because their flex-growth item value is defined to 0.5 & 2, meaning that they will grow differently.</h2>
-<div class="shrinking"> 
-    <p> And these?</p>
-    <p> What's happening?</p>
-    <p class="smallbro">are they growing and</p>
-    <p>shrinking equally?</p>
- </div>
-<h2> Nope, because the third element has the smallbro class defined which makes it smaller than the other 3.</h2>
+    </div>
+
+    <h2>With Flexbox, you can arrange items into rows or columns and make them grow or shrink ~~flex~~.</h2>
+    <h3>A cool thing about flex-containers is that you can make the elements adapt to the screen size</h3>
+
+    <div class="flex-container"> 
+        <p>For</p>
+        <p>Example</p>
+        <p>These</p>
+        <p>Paragraph-Elements</p>
+    </div>
+
+    <h2>So if you re-size your browser window, you'll see the elements above adapt in size. COOOL</h2>
+    <p>Why? Because they are inside a flex-container class div element, which I've set the display to flex. And I defined that every P element in that class would be flex:1. And that's it.</p>
+
+    <h2>Same for vertically arranged elements</h2>
+
+    <div class="columncontainer"> 
+        <p>These</p>
+        <p>Are</p>
+        <p>Stacked</p>
+        <p>Now</p>
+    </div>
+
+    <h2>Want to have your mind blown? Every flex item can be a flex container in itself.</h2>
+    <div class="flex-container">
+        <div class="nested-flex-container"><p>AMA</p><p>ZING</p></div><p>right?</p>
+    </div>
+
+    <div class="threevalues"> 
+        <p class="big">Look at</p>
+        <p class="small"> these Examples</p>
+        <p class="big">are they growing and</p>
+        <p class="small">shrinking equally?</p>
+    </div>
+
+    <h2>Nope, they aren't. Because their flex-growth item value is defined to 0.5 & 2, meaning that they will grow differently.</h2>
+
+    <div class="shrinking"> 
+        <p>And these?</p>
+        <p>What's happening?</p>
+        <p class="smallbro">are they growing and</p>
+        <p>shrinking equally?</p>
+    </div>
+
+    <h2>Nope, because the third element has the smallbro class defined which makes it smaller than the other 3.</h2>
 </body>
 </html>
