@@ -123,6 +123,8 @@ h1, h2, h3 {
     border: 4px brown;
     padding: 20px;
     gap: 150px;
+    flex-direction: row-reverse;
+
 }
 .imageflex > * {
     border: 4px brown;
