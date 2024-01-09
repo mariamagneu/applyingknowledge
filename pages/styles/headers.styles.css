@@ -1,0 +1,35 @@
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: slategray;
+}
+
+.header {
+    display: flex;
+    background-color: antiquewhite;
+    align-items: baseline;
+}
+
+
+ul {
+    list-style-type: none;
+    display: inline;
+  }
+
+.links {
+    display: inline;
+}
+
+img {
+    max-width: 150px;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: rebeccapurple;
+    color: white;
+    padding: 8px 24px;
+  }
