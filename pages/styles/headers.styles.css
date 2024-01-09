@@ -9,17 +9,19 @@ body {
 .header {
     display: flex;
     background-color: antiquewhite;
-    align-items: baseline;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
 }
 
-
-ul {
-    list-style-type: none;
-    display: inline;
-  }
-
 .links {
-    display: inline;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+.links li {
+    display: inline-block;
 }
 
 img {
@@ -32,4 +34,18 @@ button {
     background: rebeccapurple;
     color: white;
     padding: 8px 24px;
-  }
+}
+
+.notifications {
+    margin-left: auto;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-image img {
+    border-radius: 50%; /* Optional: Make the profile image round */
+}
