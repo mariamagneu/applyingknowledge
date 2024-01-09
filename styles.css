@@ -33,3 +33,13 @@
   li:hover {
     background-color: pink;
   }
+
+  ul {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 34px;
+  }
+
+  .strong {
+    font-weight: 900;
+  }
