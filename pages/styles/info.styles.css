@@ -1,0 +1,13 @@
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1 h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title {
+    font-size: large;
+    font-weight: 900;
+}
