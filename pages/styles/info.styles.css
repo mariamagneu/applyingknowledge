@@ -1,6 +1,5 @@
 .text {
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
 }
 
 h1 h2 {
@@ -10,4 +9,28 @@ h1 h2 {
 .title {
     font-size: large;
     font-weight: 900;
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    max-width: fit-content;
+    border: 2px black solid;
+    margin: 32px;
+}
+
+.information {
+    max-width: 200px;
 }
