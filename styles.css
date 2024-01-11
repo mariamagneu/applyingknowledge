@@ -1,3 +1,15 @@
+
+body {
+  margin: 0px 50px;
+  background-color: whitesmoke;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+
 .button-link {
     display: inline-block;
     padding: 10px 20px;
@@ -47,13 +59,22 @@
     display: flex;
     flex-wrap: nowrap;
     gap: 34px;
+    list-style: none;
+    padding-left: 0;
   }
 
+  a {
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    display: inline;  }
   .strong {
     font-weight: 900;
   }
 
-  body {
-    margin: 50px;
-    background-color: whitesmoke;
-  }
+
+.right-links {
+  margin-left: auto;
+}
+
+  
