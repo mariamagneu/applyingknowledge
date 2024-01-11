@@ -1,7 +1,6 @@
 body {
-    margin: 0;
-    background-color: beige;
-
+    margin: 50px;
+    background-color: whitesmoke;
 }
 
 /* Font family for common elements */
@@ -14,6 +13,8 @@ body, h1, h2, h3, p {
     display: flex;
     background-color: aquamarine;
     border: 5px aqua solid;
+    border-radius: 15%;
+
 }
 
 /* Common style for flex items */
@@ -25,6 +26,7 @@ body, h1, h2, h3, p {
     flex: 1;
     text-align: center;
     padding-top: 5%;
+    border-radius: 15%;
 }
 
 h1, h2, h3 {
@@ -39,6 +41,8 @@ h1, h2, h3 {
     border: 2px black solid;
     background-color: bisque;
     padding: 20px;
+    border-radius: 15%;
+
 }
 
 .threevalues .small {
@@ -58,6 +62,8 @@ h1, h2, h3 {
     background-color: bisque;
     padding: 20px;
     flex: 1 1 auto;
+    border-radius: 15%;
+
 }
 
 .shrinking .smallbro {
@@ -74,6 +80,8 @@ h1, h2, h3 {
     padding: 20px;
     flex: 1 1 auto; 
     max-width: 500px;
+    border-radius: 15%;
+
 }
 
 
@@ -85,6 +93,8 @@ h1, h2, h3 {
     border: brown 4px solid;
     gap: 20px;
     flex-wrap: wrap;
+    border-radius: 15%;
+
 }
 
 .elaborate p {
@@ -92,6 +102,8 @@ h1, h2, h3 {
     background-color: plum;
     max-width: fit-content;
     padding: 30px;
+    border-radius: 15%;
+
 }
 
 .elaborate .right {
@@ -106,6 +118,8 @@ h1, h2, h3 {
     flex-wrap: wrap;
     gap: 20px;
     flex-direction: column;
+    border-radius: 15%;
+
 }
 
 .parent .imageflex {
@@ -114,6 +128,8 @@ h1, h2, h3 {
     border: brown 4px solid;
     gap: 20px;
     flex-wrap: wrap;
+    border-radius: 15%;
+
 
 }
 /* Styles for imageflex */
@@ -146,4 +162,8 @@ h1, h2, h3 {
 
 img {
     max-width: 100%;
+}
+
+strong {
+    font-size: 2em;
 }
