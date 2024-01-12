@@ -64,7 +64,11 @@ body {
   }
 
   li:hover {
-    background-color: pink;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 20%;
+    text-align: center;
+
   }
 
   ul {
