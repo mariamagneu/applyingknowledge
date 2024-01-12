@@ -1,15 +1,27 @@
 
 body {
-  margin: 0px 50px;
+  margin: 0px;
   background-color: whitesmoke;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .header {
   display: flex;
   flex-direction: row;
-  margin: 0px;
+  margin: 18px;
 }
 
+.footer {
+  display: flex;
+  flex-direction: row;
+  padding: 18px;
+  background-color: #eeeeee;
+  margin-top: auto;
+  justify-content: space-around;
+}
 .button-link {
     display: inline-block;
     padding: 10px 20px;
