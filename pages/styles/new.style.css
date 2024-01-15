@@ -1,6 +1,7 @@
-body {
+html body {
  background-color: aliceblue;
  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ margin: 0px;
 }
 
 .header {
@@ -33,7 +34,6 @@ body {
 
 .hero {
     display: flex;
-    height: 400px;
     background-color: #1F2937;
    padding: 50px;
    gap: 50px;
@@ -81,7 +81,7 @@ body {
     justify-content: center;
     flex-direction: column;
     padding: 50px;
-    max-height: 50%;
+    flex-wrap: wrap;
 
   }
 
@@ -102,17 +102,7 @@ body {
     max-height: 315px;
   }
 
-  .square-button {
-    width: 315px; /* Set the width */
-    height: 315px; /* Set the height */
-    overflow: hidden; /* Hide overflowing content */
-    position: relative;
-  }
-
-  .square-button iframe {
-    width: 100%;
-    height: 100%;
-  }
+  
 
   .infoheader {
     text-align: center;
@@ -126,10 +116,31 @@ body {
   }
 
   .Testimonial {
-    padding: 100px;
+    padding: 50px;
+    display: block;
   }
 
   .testimonialauthor {
     font-style: italic;
     text-align: right;
   }
+
+  .footer {
+    background-color:#1F2937;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    margin: 0px auto 0px 0px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .infosection, .Testimonial {
+        padding: 20px;
+    }
+
+    .buttons ul {
+        gap: 20px;
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+}
