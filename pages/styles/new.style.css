@@ -53,8 +53,7 @@ html body {
 
 }
 .hero img {
-    max-height: 75%;
-    flex-shrink: 1;
+    flex-shrink: 4;
 
 }
 
@@ -91,9 +90,7 @@ html body {
     padding: 0px;
     display: flex;
     gap: 50px;
-    max-height: 300px;
     flex-wrap: wrap;
-    box-sizing: border-box;
    
   }
 
@@ -143,4 +140,18 @@ html body {
         gap: 20px;
         flex-direction: column; /* Stack items vertically on smaller screens */
     }
+
+
+    .hero {
+        flex-direction: column;
+    }
+    .heroimage {
+        flex-shrink: 1;
+    }
+    
+    .hero img {
+        max-width: 100%;
+        height: auto;
+    }
 }
+
