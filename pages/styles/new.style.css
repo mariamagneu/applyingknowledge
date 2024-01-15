@@ -101,3 +101,19 @@ body {
   .imagesize {
     max-height: 315px;
   }
+
+  .square-button {
+    width: 315px; /* Set the width */
+    height: 315px; /* Set the height */
+    overflow: hidden; /* Hide overflowing content */
+    position: relative;
+  }
+
+  .square-button iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+  .infoheader {
+    text-align: center;
+  }
