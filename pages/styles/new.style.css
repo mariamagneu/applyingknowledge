@@ -1,0 +1,62 @@
+body {
+ background-color: aliceblue;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+    height: 100px;
+    background: #1F2937;
+    color: white;
+    font-size: 32px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    padding: 0px 16px;
+    max-height: 100px;
+}
+
+.header img {
+    max-height: 100px;
+    border-radius: 50%;
+}
+
+.header .links {
+    font-size: 18px;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    height: 400px;
+    background-color: #1F2937;
+}
+
+.herotext h1 {
+    font-size: 48px;
+    color: white;
+}
+
+.herotext p {
+    font-size: 18px;
+    color: white;
+}
+.hero img {
+    max-height: 75%;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
