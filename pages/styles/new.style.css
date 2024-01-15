@@ -117,3 +117,19 @@ body {
   .infoheader {
     text-align: center;
   }
+
+  .testimonialtext {
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+
+  }
+
+  .Testimonial {
+    padding: 100px;
+  }
+
+  .testimonialauthor {
+    font-style: italic;
+    text-align: right;
+  }
