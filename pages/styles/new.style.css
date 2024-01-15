@@ -60,3 +60,35 @@ body {
   .button:hover {
     background-color: #45a049;
   }
+
+  .infosection {
+    display: flex;
+    gap: 20px;
+    
+
+  }
+
+  .buttons ul {
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .element {
+    flex: 0 0 calc(50% - 10px); /* Adjust the width as needed, subtracting margin */
+    margin-bottom: 20px; /* Add margin between elements */
+}
+
+img {
+    max-height: 300px;
+    max-width: auto;
+    display: block; /* Ensure images behave as block elements */
+
+}
+
+iframe {
+    height: 300px; /* Set a fixed height for the videos */
+}
