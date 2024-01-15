@@ -1,5 +1,9 @@
+body {
+    background-color: blanchedalmond;
+}
 .text {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px;
 }
 
 h1 h2 {
@@ -11,6 +15,7 @@ h1 h2 {
     font-weight: 900;
     text-align: center;
 
+
 }
 
 .container {
@@ -18,11 +23,13 @@ h1 h2 {
     text-align: center;
     justify-content: space-between;
     padding: 50px;
+    border: 2px red solid;
 }
 
 .element {
     display: flex;
     flex-direction: column;
+    border: 2px greenyellow solid;
 }
 
 img {
@@ -33,4 +40,6 @@ img {
 
 .information {
     max-width: 200px;
+    border: 2px blue;
+
 }
