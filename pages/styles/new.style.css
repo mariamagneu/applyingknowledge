@@ -77,7 +77,7 @@ html body {
   .infosection {
     display: flex;
     gap: 20px;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
     padding: 50px;
     flex-wrap: wrap;
@@ -106,9 +106,9 @@ html body {
   }
 
   .testimonialtext {
-    font-style: italic;
-    font-weight: 400;
+    font-style: light italic;
     text-align: center;
+    font-size: 36px;
 
   }
 
