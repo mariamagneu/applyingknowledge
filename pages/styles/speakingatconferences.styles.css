@@ -52,7 +52,11 @@ body {
 h1 {
     text-align: center;
 }
-.speakerspots {
+
+h2 {
+    text-align: center;
+}
+.section {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -61,17 +65,16 @@ h1 {
     padding: 30px;
 }
 
-.speakerspots img {
+.section img {
     max-width: 400px;
   align-self: center;
   padding: 30px;
 
 }
 
-.speakerspots a {
+.section a {
     text-align: center;
     color: white;
-    text-decoration: none;
     padding: 38px;
     flex-wrap: wrap;
 }
