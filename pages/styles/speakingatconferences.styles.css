@@ -1,5 +1,6 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
 }
 
 .header {
@@ -46,6 +47,45 @@ body {
     font-size: 18px;
     color: white;
     justify-content: space-between;
-   
-    
+}
+
+h1 {
+    text-align: center;
+}
+.speakerspots {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 30px;
+}
+
+.speakerspots img {
+    max-width: 400px;
+  align-self: center;
+  padding: 30px;
+
+}
+
+.speakerspots a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 38px;
+    flex-wrap: wrap;
+}
+
+iframe {
+    padding: 30px;
+}
+
+#nearcon {
+    display: flex;
+    justify-content: center;
+}
+
+#nftberlin {
+    display: flex;
+    justify-content: center;
 }
