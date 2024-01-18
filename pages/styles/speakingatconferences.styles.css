@@ -79,6 +79,13 @@ h2 {
     flex-wrap: wrap;
 }
 
+.section .text {
+    color: white;
+    font-size: 24px;
+    padding: 50px;
+    text-align: center;
+}
+
 iframe {
     padding: 30px;
 }
