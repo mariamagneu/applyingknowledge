@@ -158,3 +158,12 @@ html body {
     }
 }
 
+.jsinfosection {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 50px;
+  flex-wrap: wrap;
+  background-color: white;
+}
