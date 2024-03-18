@@ -167,3 +167,12 @@ html body {
   flex-wrap: wrap;
   background-color: white;
 }
+
+.element:hover{
+  background-color: #9C9CBF;
+}
+
+.element {
+  padding: 20px;
+  border-radius: 15px;
+}
